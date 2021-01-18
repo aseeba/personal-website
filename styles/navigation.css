@@ -10,7 +10,7 @@
 }
 
 .main-navigation > a {
-  color: white;
+  color: var(--midgrey);
   text-decoration: none;
   text-align: right;
 }

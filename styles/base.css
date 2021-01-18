@@ -12,6 +12,11 @@ body {
   padding: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 10px auto 10px auto;
+  }
+
 h1 {
   color: var(--yellow);
   font-size: 2.5em;
@@ -23,6 +28,7 @@ h2 {
   font-weight: 1.25em;
   font-weight: 300;
   color: var(--midgrey);
+  margin: 0;
 }
 
 h3 {

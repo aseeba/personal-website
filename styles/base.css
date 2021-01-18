@@ -12,18 +12,6 @@ body {
   padding: 0;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding-left: 20px;
-  padding-top: 20px;
-  background-color: var(--darkestgrey);
-  color: var(--yellow);
-  align-items: center;
-  line-height: 0.8;
-}
-
 h1 {
   color: var(--yellow);
   font-size: 2.5em;
@@ -40,10 +28,6 @@ h2 {
 h3 {
   color: var(--darkgrey);
   font-size: 0.8em;
-}
-
-a {
-  border-bottom: 1px;
 }
 
 ul {

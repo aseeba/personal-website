@@ -1,0 +1,33 @@
+.intro {
+    margin: 0;
+    background-color: var(--lightgrey);
+    font-size: 0.9em;
+  }
+  
+  .intro > h2 {
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .intro > p {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin: 0;
+  }
+  
+  .intro > img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .intro > p {
+      width: 90%;
+    }
+  
+    .intro > h2 {
+      margin-top: 0;
+    }
+  

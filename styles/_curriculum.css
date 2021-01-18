@@ -1,0 +1,21 @@
+.cv > h2 {
+  margin: 20px;
+  padding: 0;
+}
+.cv > ul {
+  padding-left: 20px;
+}
+
+.cv_time {
+  color: var(--yellow);
+  border-left: 2px var(--yellow) solid;
+  padding: 10px;
+  margin: 0;
+}
+
+.cv_description {
+  border-left: 2px var(--yellow) solid;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}

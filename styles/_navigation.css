@@ -1,0 +1,22 @@
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  padding: 0 20px;
+  margin: 0;
+  background-color: var(--darkestgrey);
+  font-size: 0.75em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.main-navigation > a {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+}
+
+.main-navigation > a:hover {
+  color: var(--yellow);
+  border-bottom: none;
+}

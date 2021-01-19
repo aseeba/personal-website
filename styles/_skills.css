@@ -1,0 +1,36 @@
+.skills {
+  padding: 20px;
+}
+
+.skills > ul > li {
+  background-color: var(--yellow);
+  color: var(--darkgrey);
+  font-size: 0.8em;
+  font-weight: 200;
+  margin: 0 10px 10px 0;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  border-radius: 10px;
+}
+
+.skills_personal > h2 {
+  margin-bottom: 20px;
+  padding-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .skills_technical > ul > li {
+    width: 90%;
+  }
+  .skills_personal > ul > li {
+    width: 90%;
+  }
+  .skills_personal {
+    margin-left: 10px;
+    width: 90%;
+  }
+  .skills_personal > h2 {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,54 @@
+.contact {
+  background-color: var(--lightgrey);
+  margin: 0;
+  padding: 20px;
+}
+
+.contact > h2 {
+  margin: 0;
+}
+
+.contact > a {
+  font-size: 0.9em;
+  color: var(--darkgrey);
+  text-decoration: none;
+}
+
+.some {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  background-color: var(--midgrey);
+  padding: 20px;
+}
+
+.some > h3 {
+  grid-column: 1 / 3;
+  justify-self: left;
+  margin: 0;
+  padding: 10px;
+}
+
+.some_card > img {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 80px;
+  list-style-type: none;
+  width: 90px;
+  height: 90px;
+  mix-blend-mode: modify;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 6;
+  }
+  .contact {
+    padding-left: 20px;
+  }
+}

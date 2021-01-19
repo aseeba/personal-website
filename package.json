@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  },
+  "scripts": {
+    "test": "htmlhint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aseeba/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aseeba/personal-website/issues"
+  },
+  "homepage": "https://github.com/aseeba/personal-website#readme"
+}

@@ -2,10 +2,7 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {},
-  "devDependencies": {
-    "htmlhint": "^0.14.2"
-  },
+  
   "scripts": {
     "test": "htmlhint"
   },
@@ -18,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/aseeba/personal-website/issues"
   },
-  "homepage": "https://github.com/aseeba/personal-website#readme"
+
+  "homepage": "https://github.com/aseeba/personal-website#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  }
 }

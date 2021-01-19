@@ -1,5 +1,6 @@
 .skills {
   padding: 20px;
+  background-color: white;
 }
 
 .skills > ul > li {
@@ -29,6 +30,7 @@
   .skills_personal {
     margin-left: 10px;
     width: 90%;
+    background-color: white;
   }
   .skills_personal > h2 {
     margin-bottom: 40px;

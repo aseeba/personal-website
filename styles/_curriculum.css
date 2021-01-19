@@ -1,6 +1,10 @@
+.cv {
+  background-color: white;
+}
+
 .cv > h2 {
-  margin: 20px;
-  padding: 0;
+  margin: 0;
+  padding: 20px;
 }
 .cv > ul {
   padding-left: 20px;
@@ -15,7 +19,8 @@
 
 .cv_description {
   border-left: 2px var(--yellow) solid;
-  padding: 0 10px;
-  margin-bottom: 20px;
+  padding: 0 10px 10px 10px;
+  background-color: white;
+  margin-bottom: 0;
   font-size: 0.9em;
 }

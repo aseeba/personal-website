@@ -27,6 +27,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 6;
+    background-color: white;
   }
   .intro__pic > img {
     height: 100% !important;
